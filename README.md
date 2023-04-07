@@ -5,18 +5,18 @@ Assets
 
 Le dossier assets contient différents fichiers utilisés par les scripts de ce dépôt. Ils comprennent :
 
-    .env : Ce fichier contient les informations de connexion pour RabbitMQ.
-    config.py : Ce fichier contient les paramètres de configuration pour les consommateurs et les producteurs de données.
-    docker-compose.yml : Ce fichier contient la configuration pour les conteneurs Docker utilisés dans ce dépôt.
+- .env : Ce fichier contient les informations de connexion pour RabbitMQ.
+- config.py : Ce fichier contient les paramètres de configuration pour les consommateurs et les producteurs de données.
+- docker-compose.yml : Ce fichier contient la configuration pour les conteneurs Docker utilisés dans ce dépôt.
 
 Scripts
 
 Le dossier scripts contient les scripts qui effectuent diverses tâches liées à la gestion de données. Ils comprennent :
 
-    data-clean-consumer.py : Ce script lit les données d'une file RabbitMQ et effectue des opérations de nettoyage dessus.
-    data-lake-consumer.py : Ce script lit les données d'une file RabbitMQ et les écrit dans un lac de données.
-    logs-producer.py : Ce script génère des données de journalisation et les écrit dans une file RabbitMQ.
-    server.py : Ce script lance un serveur qui expose une API pour accéder aux données.
+- data-clean-consumer.py : Ce script lit les données d'une file RabbitMQ et effectue des opérations de nettoyage dessus.
+- data-lake-consumer.py : Ce script lit les données d'une file RabbitMQ et les écrit dans un lac de données.
+- logs-producer.py : Ce script génère des données de journalisation et les écrit dans une file RabbitMQ.
+- server.py : Ce script lance un serveur qui expose une API pour accéder aux données.
 
 Dépendances
 
